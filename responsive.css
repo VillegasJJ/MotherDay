@@ -1,0 +1,29 @@
+/* Estilos para dispositivos móviles */
+
+/* Ajustar el tamaño de fuente para una mejor legibilidad en dispositivos pequeños */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Estilos para tabletas y dispositivos con un ancho de pantalla de hasta 768px */
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    table th, table td {
+        display: block;
+        width: 100%;
+    }
+
+    table td img {
+        max-width: 100%;
+        height: auto;
+    }
+}
